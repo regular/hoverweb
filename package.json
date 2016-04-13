@@ -48,6 +48,7 @@
   },
   "main": "node_modules/docpad/bin/docpad-server",
   "scripts": {
+    "start": "docpad run",
     "postinstall": "node node_modules/.bin/bower install"
   }
 }
