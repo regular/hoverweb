@@ -1,23 +1,32 @@
 --- yaml
 layout: 'default'
+charset: 'utf-8'
 title: 'Home'
 ---
 
-// Main hero unit for a primary marketing message or call to action.
-.jumbotron
-  h1 Welcome to your new site!
-  p: :markdown
-    We've copied over the [Bootstrap Skeleton](https://github.com/docpad/twitter-bootstrap.docpad) for you already, which is what you're currently viewing.
-    <br>
-    Step through the guide below and we'll walk you through the process of working with your first docpad website :-)
+.header
+  img.responsive(src="https://s-media-cache-ak0.pinimg.com/564x/76/cc/7c/76cc7cf221c6afd6fdc9d89f6bec2a9f.jpg")
 
-// Example row of columns.
-.row
-  .col-md-6
-    h2 Docpad
-    p DocPad takes that good ol' simple approach of writing files and wraps it with the best modern innovations, providing an awesome intuitive, liberating and empowering solution for HTML5 web development.</p>
-    p: a.btn.btn-default(href="https://github.com/bevry/docpad") Visit Website
-  .col-md-6
-    h2 Bootstrap
-    p Bootstrap is a toolkit originally from Twitter designed to kickstart development of webapps and sites. It includes base CSS and HTML for typography, forms, buttons, tables, grids, navigation, and more.</p>
-    p: a.btn.btn-default(href="http://getbootstrap.com/") Visit Website
+  .jumbotron
+    h1 Welcome to Hovercraft!
+    p: :markdown
+      Hovercraft is a great tool for bla.
+      
+.description
+  h2 Here's how it works:
+  .row
+    .col-md-8
+      p bla bla bla
+    .col-md-4
+      img.responsive(src="https://pbs.twimg.com/profile_images/578073915693494273/Kvm9b-aX.jpeg")
+  .row
+    .col-md-4
+      img.responsive(src="https://pbs.twimg.com/profile_images/469217937862037504/yd3-lohT.jpeg")
+    .col-md-8
+      p bla bla bla
+      
+.github
+  h2 Do you think this project is awesome?
+  p Help us improve it by checking our Github! We welcome pull-requests, comments and stars in our repo. 
+    a(href="https://github.com/shecodes-students/hovercraft")
+      i.fa.fa-github.fa-2x
