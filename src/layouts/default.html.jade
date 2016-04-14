@@ -72,8 +72,11 @@ html(lang="en")
               a(href=doc.url, property="dc:title")= doc.title
     section#content.content!= content
     footer
-      div= site.copyright
-      div(style="font-style:italic; font-size: 12px") This website was last updated at #{site.date}
+      div(style="font-style:italic; font-size: 14px")
+        p A project by <a href="http://now.she.codes/">shecodes</a>
+          a(src="https://github.com/shecodes-students") 
+            i.fa.fa-github
+        div This website was last updated at #{site.date}
 
     // Scripts
     != scripts.toHTML()
