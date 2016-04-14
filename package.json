@@ -40,6 +40,7 @@
     "docpad-plugin-related": "~2.2.2",
     "docpad-plugin-stylus": "~2.9.0",
     "docpad-plugin-text": "~2.3.3",
+    "font-awesome": "^4.6.1",
     "marked": "^0.3.5"
   },
   "devDependencies": {
